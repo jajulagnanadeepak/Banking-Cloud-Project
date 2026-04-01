@@ -1,38 +1,45 @@
-☁️ AWS Services Used & Why
-🖥️ Compute Layer
-Amazon EC2
-Hosts microservices
-Provides scalable virtual machines
-Amazon EKS
-Container orchestration
-Auto-scaling and high availability
-🌐 Networking & API Management
-Amazon API Gateway
-Entry point for all client requests
-Handles routing, throttling, and security
-Elastic Load Balancing
-Distributes traffic across services
-Improves availability
-🗄️ Database Layer
-Amazon RDS
-Managed MySQL/PostgreSQL database
-Automated backups and scaling
-Amazon DynamoDB
-High-performance NoSQL database
-Suitable for transaction logs
-⚡ Caching
-Amazon ElastiCache
-Uses Redis
-Reduces database load and improves response time
-🔐 Security
-AWS Identity and Access Management (IAM)
-Manages permissions and roles
-Amazon Cognito
-User authentication and authorization
-📦 Storage
-Amazon S3
-Stores documents, logs, and backups
-📊 Monitoring & Logging
-Amazon CloudWatch
-Tracks metrics and logs
-Alerts on failures
+☁️ AWS Services Used 
+1️⃣ 🖥️ Amazon EC2
+👉 What it does:
+Hosts your Node.js microservices (payment, account, etc.)
+👉 Why used:
+You need a server to run backend code
+Easily scalable (can increase instances during high traffic)
+Full control over environment
+
+2️⃣ 🌐 Amazon API Gateway
+👉 What it does:
+Entry point for all frontend requests
+👉 Why used:
+Routes requests to correct service
+Provides security (authentication, throttling)
+Prevents direct access to backend
+
+3️⃣ 🗄️ Amazon RDS
+👉 What it does:
+Stores structured data:
+Accounts
+Transactions
+User details
+👉 Why used:
+Reliable and managed database
+Automatic backups
+Handles financial data safely
+
+4️⃣ ⚡ Amazon ElastiCache
+👉 What it does:
+Stores frequently used data in memory (Redis)
+👉 Why used:
+Faster response time
+Reduces database load
+Useful for:
+Balance checks
+Session storage
+
+5️⃣ 📊 Amazon CloudWatch
+👉 What it does:
+Monitors logs and system performance
+👉 Why used:
+Detect failures (e.g., payment errors)
+Tracks system health
+Sends alerts
