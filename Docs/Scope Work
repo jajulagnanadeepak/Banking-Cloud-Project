@@ -1,28 +1,24 @@
-🚀 CI/CD
+🚀 CI/CD (Simple Version)
 AWS CodePipeline
-Automates build, test, deploy
+Automates build and deployment
+Reduces manual work
 AWS CodeBuild
-Builds and tests applications
+Builds backend and frontend code
+Runs basic tests
 
-🔐 Features
-Secure Authentication (JWT / Cognito)
-Account Management
-Money Transfer System
-Transaction Tracking
-Notification System
-Load Balancing
-Fault Tolerance
+🔐 Features (Simple & Clear)
+User Login & Authentication (JWT)
+Account Management (view balance, accounts)
+Money Transfer between accounts
+Bill Payments
+Transaction History tracking
+Notifications (payment, alerts)
+Basic Security (fraud alerts)
 
-🚀 Scope & Future Enhancements
-AI-based fraud detection system
-Real-time analytics dashboard (using AWS QuickSight)
-Multi-factor authentication
-Blockchain integration
-Mobile banking support
 
-📊 Key Benefits
-Highly scalable system
-Cloud-native architecture
-Fault-tolerant design
-Faster deployments using CI/CD
-Secure and reliable
+🚀 Scope & Future Enhancements (Simple)
+Add better fraud detection
+Improve dashboard analytics
+Add OTP / 2FA security
+Mobile app support
+Improve UI/UX
