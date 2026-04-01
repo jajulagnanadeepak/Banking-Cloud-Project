@@ -27,7 +27,6 @@ Improves system performance using caching and load balancing
 🧠 Approach
 Designed system using Microservices Architecture
 Used API Gateway for routing requests
-Implemented Service Discovery (Eureka)
 Applied Client-side Load Balancing
 Used Database per Service pattern
 Integrated Authentication & Authorization
@@ -43,7 +42,5 @@ Frontend
 React.js
 Database
 MongoDB / MySQL
-DevOps & Cloud
-Docker(op)
-Kubernetes(op)
-AWS
+
+
