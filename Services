@@ -1,0 +1,38 @@
+☁️ AWS Services Used & Why
+🖥️ Compute Layer
+Amazon EC2
+Hosts microservices
+Provides scalable virtual machines
+Amazon EKS
+Container orchestration
+Auto-scaling and high availability
+🌐 Networking & API Management
+Amazon API Gateway
+Entry point for all client requests
+Handles routing, throttling, and security
+Elastic Load Balancing
+Distributes traffic across services
+Improves availability
+🗄️ Database Layer
+Amazon RDS
+Managed MySQL/PostgreSQL database
+Automated backups and scaling
+Amazon DynamoDB
+High-performance NoSQL database
+Suitable for transaction logs
+⚡ Caching
+Amazon ElastiCache
+Uses Redis
+Reduces database load and improves response time
+🔐 Security
+AWS Identity and Access Management (IAM)
+Manages permissions and roles
+Amazon Cognito
+User authentication and authorization
+📦 Storage
+Amazon S3
+Stores documents, logs, and backups
+📊 Monitoring & Logging
+Amazon CloudWatch
+Tracks metrics and logs
+Alerts on failures
