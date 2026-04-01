@@ -1,0 +1,64 @@
+App like a digital bank (NovaPay) where everything happens behind the scenes through services.
+
+🔄 1. User Login (Entry Point)
+
+👉 What happens:
+
+User logs in from frontend
+Request goes to Auth Service (Node.js)
+Backend:
+Verifies email/password
+Generates JWT token
+Sends token to frontend
+
+👉 This token is used for all future requests
+
+📊 2. Dashboard Load (After Login)
+4
+
+👉 What happens:
+
+Frontend calls /dashboard
+Backend:
+Account Service → fetch balances
+Transaction Service → fetch recent transactions
+Combines data → sends to UI
+
+👉 Output:
+
+Balance
+Spending graph
+Notifications
+🏦 3. Account Management
+
+👉 What happens:
+
+User views accounts
+Backend:
+/accounts API
+Fetch:
+Account details
+Transaction history
+
+👉 Used for:
+
+Balance display
+Transaction tracking
+💸 4. Transfer Money
+
+👉 What happens when user clicks Transfer:
+
+Flow:
+Frontend → /transfer
+Backend (Node.js):
+Validate request
+Check balance
+Deduct from sender
+Add to receiver
+Save transaction
+
+👉 Important:
+
+Done safely to avoid:
+Double deduction
+Failed transfers
