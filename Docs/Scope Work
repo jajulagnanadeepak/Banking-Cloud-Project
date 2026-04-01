@@ -1,1 +1,28 @@
+🚀 CI/CD
+AWS CodePipeline
+Automates build, test, deploy
+AWS CodeBuild
+Builds and tests applications
 
+🔐 Features
+Secure Authentication (JWT / Cognito)
+Account Management
+Money Transfer System
+Transaction Tracking
+Notification System
+Load Balancing
+Fault Tolerance
+
+🚀 Scope & Future Enhancements
+AI-based fraud detection system
+Real-time analytics dashboard (using AWS QuickSight)
+Multi-factor authentication
+Blockchain integration
+Mobile banking support
+
+📊 Key Benefits
+Highly scalable system
+Cloud-native architecture
+Fault-tolerant design
+Faster deployments using CI/CD
+Secure and reliable
